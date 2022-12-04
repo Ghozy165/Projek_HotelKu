@@ -1,3 +1,28 @@
 <resources>
-    <string name="app_name">HotelKU</string>
+    <string name="app_name">HotelKu</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="info_pemesanan">Info Pemesanan</string>
+    <string name="daftar_hotel">Daftar Hotel</string>
+    <string name="riwayat_pemesanan">Riwayat Pemesanan</string>
+    <string name="nama_akun">Nama Akun</string>
+    <string name="daftarhotel">Daftar Hotel</string>
+    <string name="infopemesanan">Info Pemesanan</string>
+    <string name="riwayatpemesanan">Riwayat Pemesanan</string>
+
+    <string name="bengkalis">Bengkalis</string>
+    <string name="inhil">Inhil</string>
+    <string name="inhu">Inhu</string>
+    <string name="kampar">Kampar</string>
+    <string name="meranti">Meranti</string>
+    <string name="kuansing">Kuansing</string>
+    <string name="pelelawan">Pelelawan</string>
+    <string name="rohil">Rohil</string>
+    <string name="rohul">Rohul</string>
+    <string name="siak">Siak</string>
+    <string name="dumai">Dumai</string>
+    <string name="pekanbaru">Pekanbaru</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
