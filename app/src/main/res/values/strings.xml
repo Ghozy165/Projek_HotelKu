@@ -1,4 +1,5 @@
 <resources>
+    <!-- sidebar -->
     <string name="app_name">HotelKu</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
@@ -10,6 +11,7 @@
     <string name="infopemesanan">Info Pemesanan</string>
     <string name="riwayatpemesanan">Riwayat Pemesanan</string>
 
+    <!-- main content -->
     <string name="bengkalis">Bengkalis</string>
     <string name="inhil">Inhil</string>
     <string name="inhu">Inhu</string>
@@ -22,6 +24,11 @@
     <string name="siak">Siak</string>
     <string name="dumai">Dumai</string>
     <string name="pekanbaru">Pekanbaru</string>
+
+    <!-- daftar hotel -->
+    <string name="nama_hotel">Nama Hotel</string>
+    <string name="rating_hotel">Rating Hotel</string>
+    <string name="alamat_hotel">Alamat Hotel</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

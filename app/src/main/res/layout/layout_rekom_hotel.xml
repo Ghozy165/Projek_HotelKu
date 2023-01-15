@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <FrameLayout
+        android:id="@+id/layout_daftarhotel"
+        android:layout_width="300dp"
+        android:layout_height="340dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_kotak"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:id="@+id/layout_daftarhotel1"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:background="@drawable/shape_kotak">
+
+            <ImageView
+                android:id="@+id/daftar_gambarhotel"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/kab_bengkalis"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/daftar_namahotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/nama_hotel"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/daftar_ratinghotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/rating_hotel"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/daftar_namahotel"/>
+
+        <TextView
+            android:id="@+id/daftar_alamathotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/alamat_hotel"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/daftar_namahotel"/>
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
