@@ -1,5 +1,6 @@
 package com.hotelku
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.MenuItem
@@ -24,6 +25,8 @@ class MainActivity : AppCompatActivity(),
     lateinit var InfoPemesananFragment: HalamanInfoPemesanan
     lateinit var RiwayatPemesananFragment: HalamanRiwayatPemesanan
     lateinit var MainContent: MainContent
+
+    lateinit var dafho : TextView
 
     private var linearLayout1: LinearLayout? = null
     private val menukabkota = arrayOf(
@@ -120,14 +123,10 @@ class MainActivity : AppCompatActivity(),
 
         when (item.itemId){
             R.id.text_daftarhotel -> {
-                DaftarHotelFragment = HalamanDaftarHotel()
-                supportFragmentManager
-                    .beginTransaction()
-                    .replace(R.id.frame_layout, DaftarHotelFragment)
-                    .setTransition(FragmentTransaction. TRANSIT_FRAGMENT_OPEN)
-                    .commit()
-                Toast.makeText(applicationContext, "Ini Halaman Daftar Hotel", Toast.LENGTH_SHORT)
-                    .show()
+
+                    val intent = Intent(this,HalDafHo::class.java)
+                    startActivity(intent)
+
             }
             R.id.text_infopemesanan -> {
                 InfoPemesananFragment = HalamanInfoPemesanan()
@@ -160,6 +159,11 @@ class MainActivity : AppCompatActivity(),
         }
         return super.onOptionsItemSelected(item)
     }
+
+    private fun init(){
+        dafho = findViewById(R.id.text_daftarhotel)
+    }
+
 }
 
 
