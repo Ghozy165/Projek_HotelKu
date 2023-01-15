@@ -81,6 +81,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:text="Pilih Kamar"
+        android:background="@drawable/shape_rectangle_lightgrey"
         android:layout_below="@id/fl_informasihotel"/>
 
 
