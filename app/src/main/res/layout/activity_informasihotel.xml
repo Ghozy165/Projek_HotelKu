@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -15,6 +16,7 @@
         android:textSize="30sp"
         android:textStyle="bold"/>
     <HorizontalScrollView
+        android:id="@+id/hsv_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/txt1"
@@ -26,7 +28,60 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="150dp"
+            android:layout_marginBottom="40dp"
             android:orientation="horizontal"/>
     </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/txt_namahotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:text="Nama Hotel"
+        android:textSize="25sp"
+        android:layout_below="@id/hsv_info"
+        />
+    <androidx.appcompat.widget.AppCompatRatingBar
+        android:id="@+id/rating_hotel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="0.5"
+        android:layout_below="@id/txt_namahotel"/>
+    <TextView
+        android:id="@+id/txt_alamathotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Jl. Jend. Sudirman No.1, Tengkerang Utara, Kec. Bukit Raya, Kota Pekanbaru, Riau 28287"
+        android:textSize="15sp"
+        android:layout_below="@id/rating_hotel1"/>
+    <FrameLayout
+        android:id="@+id/fl_informasihotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/txt_alamathotel">
+        <TextView
+            android:id="@+id/txt_ulasanhotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ULASAN"
+            android:textSize="30sp"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_pilihkamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Pilih Kamar"
+        android:layout_below="@id/fl_informasihotel"/>
+
+
 </RelativeLayout>
