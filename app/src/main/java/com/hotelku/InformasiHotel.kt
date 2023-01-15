@@ -8,6 +8,7 @@ import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 
 class InformasiHotel : AppCompatActivity() {
+
     private var linearLayout : LinearLayout? = null
     private var gambar = intArrayOf(R.drawable.grandhotelpku, R.drawable.deluxedoublebed,R.drawable.deluxetwin)
 
