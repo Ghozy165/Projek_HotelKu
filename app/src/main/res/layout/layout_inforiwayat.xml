@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="6dp">
         <ImageView
-            android:id="@+id/iv_infopemesanan"
+            android:id="@+id/iv_inforiwayat"
             android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="16dp"
-            android:layout_toEndOf="@id/iv_infopemesanan"
+            android:layout_toEndOf="@id/iv_inforiwayat"
             android:text="@string/nama_hotel"
             android:textSize="15sp"/>
         <TextView
@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="2dp"
-            android:layout_toEndOf="@id/iv_infopemesanan"
+            android:layout_toEndOf="@id/iv_inforiwayat"
             android:layout_below="@id/txt_namahotel"
             android:text="@string/rating_hotel"
             android:textSize="12sp"/>
@@ -44,12 +44,12 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="2dp"
-            android:layout_toEndOf="@id/iv_infopemesanan"
+            android:layout_toEndOf="@id/iv_inforiwayat"
             android:layout_below="@id/txt_rating"
             android:text="@string/alamat_hotel"
             android:textSize="15sp"/>
         <Button
-            android:id="@+id/btn_rincian"
+            android:id="@+id/btn_rincianriwayat"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:layout_marginTop="6dp"

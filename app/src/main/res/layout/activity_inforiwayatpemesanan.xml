@@ -5,11 +5,11 @@
     android:layout_height="match_parent"
     android:background="@color/background">
     <TextView
-        android:id="@+id/text_infopemesanan"
+        android:id="@+id/text_inforiwayat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="6dp"
-        android:text="Info Pemesanan"
+        android:text="Riwayat Pemesanan"
         android:textSize="25sp"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_infopemesanan"
@@ -17,7 +17,7 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_below="@id/text_infopemesanan"
+        android:layout_below="@id/text_inforiwayat"
         android:layout_marginTop="6dp"/>
 
 </RelativeLayout>

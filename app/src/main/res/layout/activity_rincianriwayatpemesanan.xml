@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/txt_rincianriwayatpemesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:text="Rincinan Riwayat Pemesanan"
+        android:textSize="22sp" />
+
+    <RelativeLayout
+        android:id="@+id/cv_rincianpemesanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/txt_rincianriwayatpemesanan"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_rincianpemesanan"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/txt_namahotel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/iv_rincianpemesanan"
+            android:text="@string/nama_hotel"/>
+        <TextView
+            android:id="@+id/txt_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@id/iv_rincianpemesanan"
+            android:layout_below="@id/txt_namahotel"
+            android:text="@string/rating_hotel"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/txt_alamathotel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@id/iv_rincianpemesanan"
+            android:layout_below="@id/txt_rating"
+            android:text="@string/alamat_hotel"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/txt_detailpemesanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="Detail Pemesanan :"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/iv_rincianpemesanan"/>
+        <TextView
+            android:id="@+id/txt_idpemesanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/txt_detailpemesanan"
+            android:text="ID Pemesanan "
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/txt_isiidpemesanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@id/txt_idpemesanan"
+            android:layout_below="@id/txt_detailpemesanan"
+            android:text="ABC123QWE"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/txt_nomorkamar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/txt_idpemesanan"
+            android:text="Nomor Kamar "
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/txt_isinomorkamar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@id/txt_nomorkamar"
+            android:layout_below="@id/txt_isiidpemesanan"
+            android:text="123"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/txt_jeniskamar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/txt_nomorkamar"
+            android:text="Jenis Kamar "
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/txt_isijeniskamar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@id/txt_jeniskamar"
+            android:layout_below="@id/txt_isinomorkamar"
+            android:text="Deluxe Double"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/txt_jumlahkasur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/txt_jeniskamar"
+            android:text="Jumlah Kasur "
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/txt_isijumlahkasur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@id/txt_jeniskamar"
+            android:layout_below="@id/txt_isijeniskamar"
+            android:text="2 Kasur"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/txt_waktucheckin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/txt_jumlahkasur"
+            android:text="Waktu Check In "
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/txt_isiwaktucheckin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@id/txt_waktucheckin"
+            android:layout_below="@id/txt_isijumlahkasur"
+            android:text="Sen, 21 November 2022(14:00)"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/txt_waktucheckout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/txt_waktucheckin"
+            android:text="Waktu Check Out "
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/txt_isiwaktucheckout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@id/txt_waktucheckout"
+            android:layout_below="@id/txt_isiwaktucheckin"
+            android:text="Sel, 22 November 2022(12:00)"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/txt_biaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/txt_waktucheckout"
+            android:text="Total Biaya "
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/txt_isibiaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@id/txt_biaya"
+            android:layout_below="@id/txt_isiwaktucheckout"
+            android:text="Rp 400.000"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            android:id="@+id/btn_ulasan"
+            android:layout_width="104dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/txt_biaya"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="6dp"
+            android:text="Beri Ulasan"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

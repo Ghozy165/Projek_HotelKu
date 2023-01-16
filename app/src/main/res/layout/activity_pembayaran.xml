@@ -32,8 +32,7 @@
             android:hint="Pemesanan Hotel"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="18sp"
-            android:textStyle="bold"
+            android:textSize="25sp"
             app:layout_constraintBottom_toBottomOf="@+id/btn_kembali"
             app:layout_constraintStart_toEndOf="@+id/btn_kembali"
             app:layout_constraintTop_toTopOf="@+id/btn_kembali" />
