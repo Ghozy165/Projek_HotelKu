@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "471194204034",
+    "project_id": "hotelku-4994f",
+    "storage_bucket": "hotelku-4994f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471194204034:android:5c5bcd29dee1dcf29f419b",
+        "android_client_info": {
+          "package_name": "com.hotelku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471194204034-br4tuv5p7vv365q6tld5e66psntvmgev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaF1puX-U-8xL-3PpUcVNzkSNWIpkETd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471194204034-br4tuv5p7vv365q6tld5e66psntvmgev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
