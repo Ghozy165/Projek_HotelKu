@@ -31,6 +31,7 @@
         <activity  android:name=".DafahoTry"/>
         <activity  android:name=".HalPemHo"/>
         <activity  android:name=".InformasiHotel"/>
+        <activity  android:name=".InformasiKamar"/>
 
     </application>
 

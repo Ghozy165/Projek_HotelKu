@@ -3,8 +3,8 @@ package com.hotelku.datalagi
 class IsiKamar {
     companion object{
         fun setDataKamar() : ArrayList<DataKamar>{
-            val list = ArrayList<DataKamar>()
-            list.add(
+            val listKamar = ArrayList<DataKamar>()
+            listKamar.add(
                 DataKamar(
                     "kamar01",
                     "Superior Twin",
@@ -14,7 +14,7 @@ class IsiKamar {
                     "-Rp 750.000 / malam"
                 )
             )
-            list.add(
+            listKamar.add(
                 DataKamar(
                     "kamar02",
                     "Superior Double Bed",
@@ -24,7 +24,7 @@ class IsiKamar {
                     "-Rp 750.000 / malam"
                 )
             )
-            list.add(
+            listKamar.add(
                 DataKamar(
                     "kamar03",
                     "Deluxe Double Bed",
@@ -34,7 +34,7 @@ class IsiKamar {
                     "Rp 935.000 / malam"
                 )
             )
-            return list
+            return listKamar
         }
     }
 }

@@ -7,8 +7,8 @@
         android:id="@+id/rl_1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
-        android:layout_below="@id/txt_informasikamar">
+        android:layout_marginTop="10dp">
+
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
