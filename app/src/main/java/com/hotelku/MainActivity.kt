@@ -134,6 +134,10 @@ class MainActivity : AppCompatActivity(),
             R.id.text_riwayatpemesanan -> {
 
             }
+            R.id.text_login -> {
+                val intent = Intent(this,Login::class.java)
+                startActivity(intent)
+            }
         }
         binding.drawerLayout.closeDrawers()
         return true

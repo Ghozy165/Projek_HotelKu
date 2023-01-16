@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp">
+    <TextView
+        android:id="@+id/txt_judulrating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Rating"
+        android:textSize="23sp" />
+    <RatingBar
+        android:id="@+id/berirating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/txt_judulrating"
+        android:layout_centerHorizontal="true"/>
+    <FrameLayout
+        android:id="@+id/fl_ulasan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/berirating">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Isi Ulasan"
+            android:background="@drawable/shape_rectangle_lightgrey"
+            android:outlineAmbientShadowColor="@color/black"
+    </FrameLayout>
+    <Button
+        android:id="@+id/btn_kirim"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fl_ulasan"
+        android:text="Kirim"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
