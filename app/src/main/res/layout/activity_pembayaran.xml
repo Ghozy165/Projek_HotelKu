@@ -4,14 +4,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_height="wrap_content"
-    android:layout_width="match_parent">
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/background">
 
     <androidx.constraintlayout.widget.ConstraintLayout
 
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white">
+        android:layout_height="match_parent">
 
 
         <Button
@@ -50,71 +50,245 @@
             app:contentPadding="4dp"
             app:layout_constraintTop_toBottomOf="@+id/btn_kembali">
 
-            <TextView
-                android:id="@+id/pembayaran_idpemesanan"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/nama_hotel"
-                android:textColor="@color/black"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/pembayaran_idpemesanan1"
+                android:id="@+id/pembayaran_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_toEndOf="@id/pembayaran_idpemesanan"
-                android:text="Jenis Kamar"
+                android:text="ID Pemesanan"
                 android:textColor="@color/black"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+                android:textSize="12sp"
+                android:textStyle="bold"/>
 
-            <TextView
-                android:id="@+id/pemesanan_jumlahkasur"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/pemesanan_namahotel"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="75dp"
-                android:layout_toEndOf="@id/pemesanan_namahotel"
-                android:text="Jumlah Kasur"
-                android:textColor="@color/black"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/pembayaran_id1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID Pemesanan"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"/>
 
-            <TextView
-                android:id="@+id/pemesanan_fasilitas1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/pemesanan_jumlahkasur"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="105dp"
-                android:layout_toEndOf="@id/pemesanan_jumlahkasur"
-                android:text="Fasilitas : "
-                android:textColor="@color/black"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/pembayaran_nama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Pemesan"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/pembayaran_id1"/>
 
-            <TextView
-                android:id="@+id/pemesanan_fasilitas2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/pemesanan_fasilitas1"
-                android:layout_marginStart="80dp"
-                android:layout_marginTop="130dp"
-                android:layout_toEndOf="@id/pemesanan_fasilitas1"
-                android:text="Jenis Fasilitas"
-                android:textColor="@color/black"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/pembayaran_nama1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tony Stark"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_below="@id/pembayaran_id1"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_telepon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Telepon"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/pembayaran_nama1"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_telepon1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0822 6034 3694"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_below="@id/pembayaran_nama1"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/pembayaran_telepon1"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_email1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="stark20ti@mahasiswa.pcr.ac.id"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_below="@id/pembayaran_telepon1"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_jeniskamar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Kamar"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/pembayaran_email"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_jeniskamar1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Double Deluxe"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_below="@id/pembayaran_email1"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_cekin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Waktu Check-In"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/pembayaran_jeniskamar1"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_cekin1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13/01/2023"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_below="@id/pembayaran_jeniskamar1"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_cekout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Waktu Check-Out"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/pembayaran_cekin1"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_cekout1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15/01/2023"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_below="@id/pembayaran_cekin1"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_biaya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Biaya"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/pembayaran_cekout1"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_biaya1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.400.000"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_below="@id/pembayaran_cekout1"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_rekening"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No. Rekening Tujuan"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/pembayaran_biaya1"/>
+
+                <TextView
+                    android:id="@+id/pembayaran_rekening1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="711 8711211"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="150dp"
+                    android:layout_below="@id/pembayaran_biaya1"/>
+
+            </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
 
+        <TextView
+            android:id="@+id/text_buktipembayaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="25dp"
+            android:hint="Masukkan Bukti Pembayaran"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/pembayaran_card_view"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <Button
+            android:id="@+id/btn_buktipembayaran_pesan"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:gravity="center"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="25dp"
+            android:text="Upload Bukti Pembayaran"
+            android:background="@drawable/shape_rectangle_lightgrey"
+            android:backgroundTint=""
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_buktipembayaran"/>
+
+        <Button
+            android:id="@+id/btn_pembayaran_pesan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="Pesan"
+            android:background="@drawable/shape_lonjong"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_buktipembayaran_pesan"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
