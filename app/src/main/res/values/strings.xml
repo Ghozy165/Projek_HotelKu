@@ -29,6 +29,7 @@
     <string name="nama_hotel">Nama Hotel</string>
     <string name="rating_hotel">Rating Hotel</string>
     <string name="alamat_hotel">Alamat Hotel</string>
+    <string name="rating">Rating Hotel</string>
 
     <!-- Daftar Kamar -->
     <string name="jenis__kamar">Nama Kamar</string>
