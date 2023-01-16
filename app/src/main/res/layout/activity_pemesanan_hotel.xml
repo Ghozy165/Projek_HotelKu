@@ -27,7 +27,7 @@
         android:onClick="kembaliKeHalamanInformasiHotel" />
 
     <TextView
-        android:id="@+id/DaftarHotel"
+        android:id="@+id/text_pemesanan_hotel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
