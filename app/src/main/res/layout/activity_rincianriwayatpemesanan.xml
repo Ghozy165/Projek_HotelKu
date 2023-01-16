@@ -29,42 +29,42 @@
         android:background="@color/white">
 
         <ImageView
-            android:id="@+id/iv_rincianpemesanan"
+            android:id="@+id/iv_riwayatpemesanan"
             android:layout_width="150dp"
             android:layout_height="100dp"
             android:layout_margin="5dp"
             android:src="@drawable/ic_launcher_background" />
 
         <TextView
-            android:id="@+id/txt_namahotel"
+            android:id="@+id/txt_namahotelrinciriwayat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:layout_toEndOf="@id/iv_rincianpemesanan"
+            android:layout_toEndOf="@id/iv_riwayatpemesanan"
             android:text="@string/nama_hotel"/>
         <TextView
-            android:id="@+id/txt_rating"
+            android:id="@+id/txt_ratingrinciriwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="2dp"
-            android:layout_toEndOf="@id/iv_rincianpemesanan"
-            android:layout_below="@id/txt_namahotel"
+            android:layout_toEndOf="@id/iv_riwayatpemesanan"
+            android:layout_below="@id/txt_namahotelrinciriwayat"
             android:text="@string/rating_hotel"
             android:textSize="12sp"/>
         <TextView
-            android:id="@+id/txt_alamathotel"
+            android:id="@+id/txt_alamathotelrinciriwayat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="2dp"
-            android:layout_toEndOf="@id/iv_rincianpemesanan"
-            android:layout_below="@id/txt_rating"
+            android:layout_toEndOf="@id/iv_riwayatpemesanan"
+            android:layout_below="@id/txt_ratingrinciriwayat"
             android:text="@string/alamat_hotel"
             android:textSize="15sp"/>
         <TextView
-            android:id="@+id/txt_detailpemesanan"
+            android:id="@+id/txt_riwayatdetailpemesanan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -72,124 +72,124 @@
             android:text="Detail Pemesanan :"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:layout_below="@id/iv_rincianpemesanan"/>
+            android:layout_below="@id/iv_riwayatpemesanan"/>
         <TextView
-            android:id="@+id/txt_idpemesanan"
+            android:id="@+id/txt_idriwayatpemesanan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_below="@id/txt_detailpemesanan"
+            android:layout_below="@id/txt_riwayatdetailpemesanan"
             android:text="ID Pemesanan "
             android:textSize="15sp"/>
         <TextView
-            android:id="@+id/txt_isiidpemesanan"
+            android:id="@+id/txt_isiidpemesananriwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:layout_toStartOf="@id/txt_idpemesanan"
-            android:layout_below="@id/txt_detailpemesanan"
+            android:layout_toStartOf="@id/txt_idriwayatpemesanan"
+            android:layout_below="@id/txt_riwayatdetailpemesanan"
             android:text="ABC123QWE"
             android:layout_alignParentRight="true"/>
         <TextView
-            android:id="@+id/txt_nomorkamar"
+            android:id="@+id/txt_nomorkamarriwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_below="@id/txt_idpemesanan"
+            android:layout_below="@id/txt_idriwayatpemesanan"
             android:text="Nomor Kamar "
             android:textSize="15sp"/>
         <TextView
-            android:id="@+id/txt_isinomorkamar"
+            android:id="@+id/txt_isinomorkamarriwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:layout_toStartOf="@id/txt_nomorkamar"
-            android:layout_below="@id/txt_isiidpemesanan"
+            android:layout_toStartOf="@id/txt_nomorkamarriwayat"
+            android:layout_below="@id/txt_isiidpemesananriwayat"
             android:text="123"
             android:layout_alignParentRight="true"/>
         <TextView
-            android:id="@+id/txt_jeniskamar"
+            android:id="@+id/txt_jeniskamarriwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_below="@id/txt_nomorkamar"
+            android:layout_below="@id/txt_nomorkamarriwayat"
             android:text="Jenis Kamar "
             android:textSize="15sp"/>
         <TextView
-            android:id="@+id/txt_isijeniskamar"
+            android:id="@+id/txt_isijeniskamarriwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:layout_toStartOf="@id/txt_jeniskamar"
-            android:layout_below="@id/txt_isinomorkamar"
+            android:layout_toStartOf="@id/txt_jeniskamarriwayat"
+            android:layout_below="@id/txt_isinomorkamarriwayat"
             android:text="Deluxe Double"
             android:layout_alignParentRight="true"/>
         <TextView
-            android:id="@+id/txt_jumlahkasur"
+            android:id="@+id/txt_jumlahkasurriwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_below="@id/txt_jeniskamar"
+            android:layout_below="@id/txt_jeniskamarriwayat"
             android:text="Jumlah Kasur "
             android:textSize="15sp"/>
         <TextView
-            android:id="@+id/txt_isijumlahkasur"
+            android:id="@+id/txt_isijumlahkasurriwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:layout_toStartOf="@id/txt_jeniskamar"
-            android:layout_below="@id/txt_isijeniskamar"
+            android:layout_toStartOf="@id/txt_jeniskamarriwayat"
+            android:layout_below="@id/txt_isijeniskamarriwayat"
             android:text="2 Kasur"
             android:layout_alignParentRight="true"/>
         <TextView
-            android:id="@+id/txt_waktucheckin"
+            android:id="@+id/txt_waktucheckinriwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_below="@id/txt_jumlahkasur"
+            android:layout_below="@id/txt_jumlahkasurriwayat"
             android:text="Waktu Check In "
             android:textSize="15sp"/>
         <TextView
-            android:id="@+id/txt_isiwaktucheckin"
+            android:id="@+id/txt_isiwaktucheckinriwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:layout_toStartOf="@id/txt_waktucheckin"
-            android:layout_below="@id/txt_isijumlahkasur"
+            android:layout_toStartOf="@id/txt_waktucheckinriwayat"
+            android:layout_below="@id/txt_isijumlahkasurriwayat"
             android:text="Sen, 21 November 2022(14:00)"
             android:layout_alignParentRight="true"/>
         <TextView
-            android:id="@+id/txt_waktucheckout"
+            android:id="@+id/txt_waktucheckoutriwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_below="@id/txt_waktucheckin"
+            android:layout_below="@id/txt_waktucheckinriwayat"
             android:text="Waktu Check Out "
             android:textSize="15sp"/>
         <TextView
-            android:id="@+id/txt_isiwaktucheckout"
+            android:id="@+id/txt_isiwaktucheckoutriwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:layout_toStartOf="@id/txt_waktucheckout"
-            android:layout_below="@id/txt_isiwaktucheckin"
+            android:layout_toStartOf="@id/txt_waktucheckoutriwayat"
+            android:layout_below="@id/txt_isiwaktucheckinriwayat"
             android:text="Sel, 22 November 2022(12:00)"
             android:layout_alignParentRight="true"/>
         <TextView
-            android:id="@+id/txt_biaya"
+            android:id="@+id/txt_biayariwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_below="@id/txt_waktucheckout"
+            android:layout_below="@id/txt_waktucheckoutriwayat"
             android:text="Total Biaya "
             android:textSize="15sp"/>
         <TextView
-            android:id="@+id/txt_isibiaya"
+            android:id="@+id/txt_isibiayariwayat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:layout_toStartOf="@id/txt_biaya"
-            android:layout_below="@id/txt_isiwaktucheckout"
+            android:layout_toStartOf="@id/txt_biayariwayat"
+            android:layout_below="@id/txt_isiwaktucheckoutriwayat"
             android:text="Rp 400.000"
             android:layout_alignParentRight="true"/>
 
@@ -197,7 +197,7 @@
             android:id="@+id/btn_ulasan"
             android:layout_width="104dp"
             android:layout_height="35dp"
-            android:layout_below="@id/txt_biaya"
+            android:layout_below="@id/txt_biayariwayat"
             android:layout_centerHorizontal="true"
             android:layout_marginStart="6dp"
             android:layout_marginTop="6dp"
