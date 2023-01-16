@@ -14,5 +14,9 @@
             android:id="@+id/text_riwayatpemesanan"
 
             android:title="@string/riwayat_pemesanan" />
+        <item
+            android:id="@+id/text_login"
+
+            android:title="Login"/>
     </group>
 </menu>

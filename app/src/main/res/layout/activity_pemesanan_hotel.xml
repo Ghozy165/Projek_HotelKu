@@ -6,7 +6,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
-    android:background="@color/background">
+    android:background="@color/background"
+    android:fitsSystemWindows="true">
 
 <RelativeLayout
     
@@ -17,13 +18,13 @@
 
     <Button
         android:id="@+id/btn_kembali"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:background="@android:color/white"
+        android:background="@drawable/ic_back"
         android:onClick="kembaliKeHalamanInformasiHotel" />
 
     <TextView
@@ -31,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="10dp"
         android:hint="Pemesanan Hotel"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -96,7 +97,7 @@
                 android:id="@+id/pemesanan_fasilitas1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="105dp"
                 android:text="Fasilitas : "
                 android:textColor="@color/black"
@@ -109,7 +110,7 @@
                 android:id="@+id/pemesanan_fasilitas2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="80dp"
+                android:layout_marginStart="10dp"
                 android:layout_marginTop="130dp"
                 android:text="Jenis Fasilitas"
                 android:textColor="@color/black"
