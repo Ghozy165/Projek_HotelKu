@@ -20,7 +20,7 @@ class HalPemHo : AppCompatActivity() {
     }
 
     fun kembaliKeHalamanInformasiHotel(view: View?){
-        val i = Intent(applicationContext, HalamanInformasiHotel::class.java)
+        val i = Intent(applicationContext, InformasiHotel::class.java)
         startActivity(i)
     }
 

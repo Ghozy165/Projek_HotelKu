@@ -28,6 +28,9 @@
                 android:value="" />
         </activity>
         <activity  android:name=".HalDafHo"/>
+        <activity  android:name=".DafahoTry"/>
+        <activity  android:name=".HalPemHo"/>
+        <activity  android:name=".InformasiHotel"/>
 
     </application>
 

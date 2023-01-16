@@ -21,9 +21,9 @@ class MainActivity : AppCompatActivity(),
     private lateinit var binding: ActivityMainBinding
 
     lateinit var toogle: ActionBarDrawerToggle
-    lateinit var DaftarHotelFragment: HalamanDaftarHotel
-    lateinit var InfoPemesananFragment: HalamanInfoPemesanan
-    lateinit var RiwayatPemesananFragment: HalamanRiwayatPemesanan
+    lateinit var DaftarHotelFragment: HalDafHo
+    lateinit var InfoPemesananFragment: HalPemHo
+
     lateinit var MainContent: MainContent
 
     lateinit var dafho : TextView
@@ -124,29 +124,15 @@ class MainActivity : AppCompatActivity(),
         when (item.itemId){
             R.id.text_daftarhotel -> {
 
-                    val intent = Intent(this,HalDafHo::class.java)
+                    val intent = Intent(this,DafahoTry::class.java)
                     startActivity(intent)
 
             }
             R.id.text_infopemesanan -> {
-                InfoPemesananFragment = HalamanInfoPemesanan()
-                supportFragmentManager
-                    .beginTransaction()
-                    .replace(R.id.frame_layout, InfoPemesananFragment)
-                    .setTransition(FragmentTransaction. TRANSIT_FRAGMENT_OPEN)
-                    .commit()
-                Toast.makeText(applicationContext, "Ini Halaman Info Pemesanan", Toast.LENGTH_SHORT)
-                    .show()
+
             }
             R.id.text_riwayatpemesanan -> {
-                RiwayatPemesananFragment = HalamanRiwayatPemesanan()
-                supportFragmentManager
-                    .beginTransaction()
-                    .replace(R.id.frame_layout, RiwayatPemesananFragment)
-                    .setTransition(FragmentTransaction. TRANSIT_FRAGMENT_OPEN)
-                    .commit()
-                Toast.makeText(applicationContext, "Ini Halaman Riwayat Pemesanan", Toast.LENGTH_SHORT)
-                    .show()
+
             }
         }
         binding.drawerLayout.closeDrawers()

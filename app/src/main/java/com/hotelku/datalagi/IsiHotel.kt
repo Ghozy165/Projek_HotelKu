@@ -1,5 +1,7 @@
 package com.hotelku.datalagi
 
+import com.hotelku.datalagi.DataHotel
+
 class IsiHotel {
     companion object {
         fun buatSetData(): ArrayList<DataHotel> {
