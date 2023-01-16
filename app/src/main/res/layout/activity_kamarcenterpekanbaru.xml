@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txt_informasikamar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Informasi Kamar"
+            android:textSize="25sp"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/txt_informasikamar">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="5dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img_deluxetwin"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/deluxetwin"/>
+                    <TextView
+                        android:id="@+id/txt_jeniskamar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="Deluxe Twin"
+                        android:textSize="20sp"
+                        android:layout_below="@id/img_deluxetwin"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txt_kasur"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="16dp"
+                        android:text="1 Ranjang Twin"
+                        android:layout_below="@id/txt_jeniskamar"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitaskamar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="16dp"
+                        android:text="Fasilitas : "
+                        android:layout_below="@id/txt_kasur"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitas1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="- AC"
+                        android:layout_below="@id/txt_fasilitaskamar"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitas2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="- TV"
+                        android:layout_below="@id/txt_fasilitas1"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitas3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="- WIFI"
+                        android:layout_below="@id/txt_fasilitas2"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitas4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="- Pembuat Kopi/Teh"
+                        android:layout_below="@id/txt_fasilitas3"/>
+                    <TextView
+                        android:id="@+id/txt_harga1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:layout_alignParentRight="true"
+                        android:text="Rp 935.000"
+                        android:textSize="20sp"
+                        android:layout_below="@id/txt_fasilitas4"/>
+                    <Button
+                        android:id="@+id/btn_pesankamar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="5dp"
+                        android:text="Pesan Kamar"
+                        android:textSize="15sp"
+                        android:layout_below="@id/txt_harga1" />
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/rl_1">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="5dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img_doubledeluxe"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/deluxedoublebed"/>
+                    <TextView
+                        android:id="@+id/txt_jeniskamar1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="Deluxe Double Bed"
+                        android:textSize="20sp"
+                        android:layout_below="@id/img_doubledeluxe"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txt_kasur1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="16dp"
+                        android:text="1 King bed"
+                        android:layout_below="@id/txt_jeniskamar1"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitaskamar1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="16dp"
+                        android:text="Fasilitas : "
+                        android:layout_below="@id/txt_kasur1"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitas1_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="- AC"
+                        android:layout_below="@id/txt_fasilitaskamar1"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitas1_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="- TV"
+                        android:layout_below="@id/txt_fasilitas1_1"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitas1_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="- WIFI"
+                        android:layout_below="@id/txt_fasilitas1_2"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitas1_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="- Pembuat Kopi/Teh"
+                        android:layout_below="@id/txt_fasilitas1_3"/>
+                    <TextView
+                        android:id="@+id/txt_harga2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:layout_alignParentRight="true"
+                        android:text="Rp 935.000"
+                        android:textSize="20sp"
+                        android:layout_below="@id/txt_fasilitas1_4"/>
+
+                    <Button
+                        android:id="@+id/btn_pesankamar1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="5dp"
+                        android:text="Pesan Kamar"
+                        android:textSize="15sp"
+                        android:layout_below="@id/txt_harga2" />
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/rl_2">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="5dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/img_superiortwin"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/superiortwin"/>
+                    <TextView
+                        android:id="@+id/txt_jeniskamar2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="Superior Twin"
+                        android:textSize="20sp"
+                        android:layout_below="@id/img_superiortwin"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txt_kasur2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="16dp"
+                        android:text="2 Ranjang twin"
+                        android:layout_below="@id/txt_jeniskamar2"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitaskamar2_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginLeft="16dp"
+                        android:text="Fasilitas : "
+                        android:layout_below="@id/txt_kasur2"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitas2_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="- AC"
+                        android:layout_below="@id/txt_fasilitaskamar2_1"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitas2_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="- TV"
+                        android:layout_below="@id/txt_fasilitas2_2"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitas3_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="- WIFI"
+                        android:layout_below="@id/txt_fasilitas2_3"/>
+                    <TextView
+                        android:id="@+id/txt_fasilitas4_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:text="- Pembuat Kopi/Teh"
+                        android:layout_below="@id/txt_fasilitas3_1"/>
+                    <TextView
+                        android:id="@+id/txt_harga3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:layout_alignParentRight="true"
+                        android:text="Rp 750.000"
+                        android:textSize="20sp"
+                        android:layout_below="@id/txt_fasilitas4_1"/>
+
+                    <Button
+                        android:id="@+id/btn_pesankamar2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txt_harga3"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Pesan Kamar"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>
