@@ -30,6 +30,12 @@
     <string name="rating_hotel">Rating Hotel</string>
     <string name="alamat_hotel">Alamat Hotel</string>
 
+    <!-- Daftar Kamar -->
+    <string name="jenis__kamar">Nama Kamar</string>
+    <string name="jenis_tempattidur">Jenis Kasur</string>
+    <string name="fasilitas">Fasilitas</string>
+    <string name="harga">Harga Kamar</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

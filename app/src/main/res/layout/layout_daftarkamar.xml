@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rl_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txt_informasikamar">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_fotokamar"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background"/>
+                <TextView
+                    android:id="@+id/txt_jeniskamar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/jenis__kamar"
+                    android:textSize="20sp"
+                    android:layout_below="@id/img_fotokamar"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txt_kasur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/jenis_tempattidur"
+                    android:layout_below="@id/txt_jeniskamar"/>
+                <TextView
+                    android:id="@+id/txt_fasilitaskamar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="Fasilitas : "
+                    android:layout_below="@id/txt_kasur"/>
+                <TextView
+                    android:id="@+id/txt_fasilitas1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="@string/fasilitas"
+                    android:layout_below="@id/txt_fasilitaskamar"/>
+                <TextView
+                    android:id="@+id/txt_harga1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="16dp"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/harga"
+                    android:textSize="18sp"
+                    android:layout_below="@id/txt_fasilitas1"/>
+                <Button
+                    android:id="@+id/btn_pesankamar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="5dp"
+                    android:text="Pesan Kamar"
+                    android:textSize="15sp"
+                    android:layout_below="@id/txt_harga1" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
