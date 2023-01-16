@@ -70,7 +70,7 @@ class InformasiHotel : AppCompatActivity() {
     }
 
     fun KeHalamanPesanKamar(view: View?){
-        val i = Intent(applicationContext, MainActivity::class.java)
+        val i = Intent(applicationContext, InformasiKamar::class.java)
         startActivity(i)
     }
 

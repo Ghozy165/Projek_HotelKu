@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/background"
     tools:context=".InformasiKamar">
+
     <TextView
         android:id="@+id/txt_informasikamar"
         android:layout_width="wrap_content"
@@ -14,14 +15,13 @@
         android:layout_marginLeft="10dp"
         android:text="Informasi Kamar"
         android:textSize="25sp"/>
+
     <androidx.recyclerview.widget.RecyclerView
 
-        android:id="@+id/recyclerview"
+        android:id="@+id/recyclerview_informasikamar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
+        android:layout_marginVertical="10dp"
         android:layout_below="@id/txt_informasikamar"/>
-
-
 
 </RelativeLayout>
