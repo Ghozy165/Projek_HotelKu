@@ -3,17 +3,19 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/background"
     app:cardCornerRadius="2dp"
     app:cardElevation="10dp"
     app:cardPreventCornerOverlap="false">
 
     <RelativeLayout
         android:id="@+id/layout_daftarhotel"
-        android:layout_width="300dp"
-        android:layout_height="340dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_margin="25dp"
         android:background="@drawable/shape_kotak"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,13 +24,13 @@
 
         <FrameLayout
             android:id="@+id/layout_daftarhotel1"
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:background="@drawable/shape_kotak">
 
             <ImageView
                 android:id="@+id/daftar_gambarhotel"
-                android:layout_width="300dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:src="@drawable/kab_bengkalis"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -69,6 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="290dp"
+            android:layout_marginBottom="15dp"
             android:layout_marginLeft="5dp"
             android:text="@string/alamat_hotel"
             android:textColor="#000000"

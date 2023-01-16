@@ -271,7 +271,6 @@
             android:layout_marginTop="25dp"
             android:text="Upload Bukti Pembayaran"
             android:background="@drawable/shape_rectangle_lightgrey"
-            android:backgroundTint=""
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/text_buktipembayaran"/>

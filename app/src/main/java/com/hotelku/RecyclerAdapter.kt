@@ -12,19 +12,23 @@ import com.google.android.material.snackbar.Snackbar
 class RecyclerAdapter: RecyclerView.Adapter<RecyclerAdapter.ViewHolder>(){
 
     private val rekomhotel = arrayOf(
-        "Grand Central Hotel Pekanbaru"
+        "Grand Central Hotel Pekanbaru",
+        "Hotel Pangeran Pekanbaru"
     )
 
     private val rekombintang = arrayOf(
-        "Bintang 5"
+        "Bintang 5",
+        "Bintang 4"
     )
 
     private val rekomalamat = arrayOf(
-        "Jalan Jendral Sudirman No 1 Pekanbaru"
+        "Jalan Jendral Sudirman No 1 Pekanbaru",
+        "Jalan Jend Sudirman No. 371-373, Pusat Kota Pekanbaru"
     )
 
     private val rekomfoto = intArrayOf(
-        R.drawable.grandhotelpku
+        R.drawable.grandhotelpku,
+        R.drawable.superiordoublezuri
     )
 
     //ViewHolder class
