@@ -84,6 +84,4 @@
         android:text="Pilih Kamar"
         android:background="@drawable/shape_rectangle_lightgrey"
         android:layout_below="@id/fl_informasihotel"/>
-
-
 </RelativeLayout>
