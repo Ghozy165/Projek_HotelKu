@@ -29,16 +29,11 @@
 
     <TextView
         android:id="@+id/text_pemesanan_hotel"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="10dp"
-        android:hint="Pemesanan Hotel"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:layout_toRightOf="@id/btn_kembali"
+        android:layout_marginTop="8dp"
+        android:text="Pemesanan Hotel"
+        android:textSize="20sp"
         android:layout_toEndOf="@id/btn_kembali"/>
 
 

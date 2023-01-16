@@ -9,26 +9,29 @@
 
 <RelativeLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".InformasiHotel"
     android:background="@color/background">
 
     <Button
         android:id="@+id/btn_kembali"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_margin="10dp"
-        android:background="@android:color/white"
-        android:onClick="kembaliKeHalamanDaftarHotel"/>
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_back"
+        android:onClick="kembaliKeHalamanDaftarHotel" />
 
     <TextView
         android:id="@+id/txt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="4dp"
         android:text="Informasi Hotel"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         android:layout_toRightOf="@id/btn_kembali"
         android:layout_toEndOf="@id/btn_kembali"/>
