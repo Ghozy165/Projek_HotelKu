@@ -49,7 +49,7 @@
             android:text="@string/alamat_hotel"
             android:textSize="15sp"/>
         <Button
-            android:id="@+id/btn_rincian"
+            android:id="@+id/btn_rincianpemesanan"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:layout_marginTop="6dp"
