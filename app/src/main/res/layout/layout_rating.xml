@@ -31,7 +31,7 @@
             android:layout_height="60dp"
             android:hint="Isi Ulasan"
             android:background="@drawable/shape_rectangle_lightgrey"
-            android:outlineAmbientShadowColor="@color/black"
+            android:outlineAmbientShadowColor="@color/black"/>
     </FrameLayout>
     <Button
         android:id="@+id/btn_kirim"
