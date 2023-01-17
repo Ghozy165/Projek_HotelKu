@@ -13,7 +13,7 @@
     
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HalDafHo"
+    tools:context=".HalPemHo"
     android:background="@color/background">
 
     <Button
@@ -257,7 +257,8 @@
         android:layout_below="@+id/edt_pemesanan_checkout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edt_pemesanan_checkout"/>
+        app:layout_constraintTop_toBottomOf="@id/edt_pemesanan_checkout"
+        android:onClick="KeBayarPemesanan"/>
 
 </RelativeLayout>
 </ScrollView>
