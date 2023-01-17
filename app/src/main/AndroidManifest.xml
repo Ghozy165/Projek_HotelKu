@@ -33,6 +33,8 @@
         <activity  android:name=".InformasiHotel"/>
         <activity  android:name=".InformasiKamar"/>
         <activity  android:name=".HalBayarHo"/>
+        <activity  android:name=".HalInfoPem"/>
+        <activity  android:name=".HalRiwPem"/>
 
     </application>
 

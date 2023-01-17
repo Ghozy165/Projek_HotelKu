@@ -130,8 +130,14 @@ class MainActivity : AppCompatActivity(),
             }
             R.id.text_infopemesanan -> {
 
+                val intent = Intent(this,HalInfoPem::class.java)
+                startActivity(intent)
+
             }
             R.id.text_riwayatpemesanan -> {
+
+                val intent = Intent(this,HalRiwPem::class.java)
+                startActivity(intent)
 
             }
             R.id.text_login -> {

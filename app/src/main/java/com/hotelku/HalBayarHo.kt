@@ -43,13 +43,13 @@ class HalBayarHo : AppCompatActivity()  {
         val viewpembayaranhotel = bindingpembayaran.root
         setContentView(viewpembayaranhotel)
 
-        val extras = intent.extras
+        //val extras = intent.extras
 
-        nama_pemesan = extras!!.getString(KEY_NAME)
-        txt_idpemesanan!!.text =  nama_pemesan.toString()
+        //nama_pemesan = extras!!.getString(KEY_NAME)
+        //txt_idpemesanan!!.text =  nama_pemesan.toString()
 
-        bindingpembayaran.pembayaranId1.text = ""
-        bindingpembayaran.pembayaranNama1.text = nama_pemesan
+        //bindingpembayaran.pembayaranId1.text = ""
+        //bindingpembayaran.pembayaranNama1.text = nama_pemesan
 
     }
 }
