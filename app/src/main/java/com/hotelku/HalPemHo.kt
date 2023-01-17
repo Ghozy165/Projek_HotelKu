@@ -81,7 +81,6 @@ class HalPemHo : AppCompatActivity() {
     }
 
     private fun simpanDataPemesanan() {
-
             try {
                 nama_pemesan = nama_pemesan.toString()
                 hp = hp.toString()
@@ -97,19 +96,20 @@ class HalPemHo : AppCompatActivity() {
                     cekout != null && cekout !== ""
                 ) {
                     val i = Intent(this@HalPemHo, HalBayarHo::class.java)
-                    i.putExtra(KEY_NAME, nama_pemesan)
-                    i.putExtra(KEY_NAME, hp)
-                    i.putExtra(KEY_NAME, email)
-                    i.putExtra(KEY_NAME, cekin)
-                    i.putExtra(KEY_NAME, cekout)
+                    intent.apply {
+                        i.putExtra(KEY_NAME, nama_pemesan)
+                        i.putExtra(KEY_NAME, hp)
+                        i.putExtra(KEY_NAME, email)
+                        i.putExtra(KEY_NAME, cekin)
+                        i.putExtra(KEY_NAME, cekout)
 
-                    i.putExtra(KEY_NAME, jenis_kamar)
-                    i.putExtra(KEY_NAME, id_kamar)
-                    i.putExtra(KEY_NAME, jenis_kasur)
-                    i.putExtra(KEY_NAME, fasilitas)
-                    i.putExtra(KEY_NAME, foto_kamar)
-                    i.putExtra(KEY_NAME, harga)
-
+                        i.putExtra(KEY_NAME, jenis_kamar)
+                        i.putExtra(KEY_NAME, id_kamar)
+                        i.putExtra(KEY_NAME, jenis_kasur)
+                        i.putExtra(KEY_NAME, fasilitas)
+                        i.putExtra(KEY_NAME, foto_kamar)
+                        i.putExtra(KEY_NAME, harga)
+                    }
                     startActivity(i)
                 } else {
                     Toast.makeText(application, "YOU NEED TO FILL ALL", Toast.LENGTH_SHORT)
